@@ -14,9 +14,8 @@ public class alphabetTP {
                 System.out.print(finalAns+" ");
             }
 
+               char toPrint = (char)(row+'A'-2);
             for(int col=1;col<=row-1;col++){
-                
-            char toPrint = (char)(row+'A'-2);
                 System.out.print(toPrint + " ");
                 toPrint--;
             }
