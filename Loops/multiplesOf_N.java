@@ -3,7 +3,7 @@ public class multiplesOf_N {
         int n = 5;
         for(int row=1;row<=10;row++){
             int multiply=n*row;
-            System.out.print(multiply+" ");
+            System.out.println( n+" * "+row +" = "+ multiply);
         }
     }
 }
